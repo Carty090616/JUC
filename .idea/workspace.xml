@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21093d36-8787-4405-952c-6737601ba565" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/LockSupport.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/TestLockSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/TestObjectWaitNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/testAQS/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/testAQS/TestAQS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/BlockingQueue/ArrayBlockingQueue/ArrayBlockingQueue.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/BlockingQueue/ArrayBlockingQueue/TestProduceConsumeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/BlockingQueue/LinkedBlockingQueue/LinkedBlockingQueue.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/BlockingQueue/LinkedBlockingQueue/TestLinkedBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/TestInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/TestSharedVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/Varable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/interrupt.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/juc/target/" />
@@ -20,40 +23,40 @@
     <session id="-896794185">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="41" />
-          <entry key="md" value="11" />
+          <entry key="java" value="67" />
+          <entry key="md" value="15" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="41" />
-          <entry key="Markdown" value="11" />
+          <entry key="JAVA" value="67" />
+          <entry key="Markdown" value="15" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1942" />
-          <entry key="md" value="898" />
+          <entry key="java" value="3963" />
+          <entry key="md" value="1357" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1942" />
-          <entry key="Markdown" value="898" />
+          <entry key="JAVA" value="3963" />
+          <entry key="Markdown" value="1357" />
         </counts>
       </usages-collector>
     </session>
@@ -61,44 +64,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/LockSupport.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="140" column="25" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="25" />
+            <state relative-caret-position="582">
+              <caret line="2031" column="26" selection-start-line="2031" selection-start-column="26" selection-end-line="2031" selection-end-column="26" />
               <folding>
-                <element signature="e#10983#10984#0" expanded="true" />
-                <element signature="e#11021#11022#0" expanded="true" />
-                <element signature="e#13575#13576#0" expanded="true" />
-                <element signature="e#13618#13619#0" expanded="true" />
+                <element signature="e#20991#20992#0" expanded="true" />
+                <element signature="e#21042#21043#0" expanded="true" />
+                <element signature="e#22675#22676#0" expanded="true" />
+                <element signature="e#22703#22704#0" expanded="true" />
+                <element signature="e#22933#22934#0" expanded="true" />
+                <element signature="e#22965#22966#0" expanded="true" />
+                <element signature="e#32644#32645#0" expanded="true" />
+                <element signature="e#32694#32695#0" expanded="true" />
+                <element signature="e#41392#41393#0" expanded="true" />
+                <element signature="e#41449#41450#0" expanded="true" />
+                <element signature="e#42562#42563#0" expanded="true" />
+                <element signature="e#42619#42620#0" expanded="true" />
+                <element signature="e#44444#44445#0" expanded="true" />
+                <element signature="e#44501#44502#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/TestLockSupport.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="41" column="26" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/TestObjectWaitNotify.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="-168">
+              <caret line="962" column="19" selection-start-line="962" selection-start-column="19" selection-end-line="962" selection-end-column="19" />
+              <folding>
+                <element signature="e#15704#15705#0" expanded="true" />
+                <element signature="e#15770#15771#0" expanded="true" />
+                <element signature="e#36709#36710#0" expanded="true" />
+                <element signature="e#36767#36768#0" expanded="true" />
+                <element signature="e#37304#37305#0" expanded="true" />
+                <element signature="e#37347#37348#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/LockSupport.md">
+        <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/interrupt.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="400">
-                <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="425">
+                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -106,13 +118,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/testCallable/Callable.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="500">
-                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/TestInterrupt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="284" selection-start-line="284" selection-end-line="284" />
+              <folding>
+                <element signature="e#5562#5563#0" expanded="true" />
+                <element signature="e#5614#5615#0" expanded="true" />
+                <element signature="e#8176#8177#0" expanded="true" />
+                <element signature="e#8216#8217#0" expanded="true" />
+                <element signature="e#9144#9145#0" expanded="true" />
+                <element signature="e#17535#17536#0" expanded="true" />
+                <element signature="e#17577#17578#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/Condition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-993">
+              <caret line="178" column="17" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -169,6 +205,16 @@
         <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/TestLockSupport.java" />
         <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/TestObjectWaitNotify.java" />
         <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/LockSupport.md" />
+        <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/BlockingQueue/ArrayBlockingQueue/TestArrayBlockingQueue.java" />
+        <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/BlockingQueue/ArrayBlockingQueue/TestProduceConsumeDemo.java" />
+        <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/BlockingQueue/ArrayBlockingQueue/ArrayBlockingQueue.md" />
+        <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/Varable.java" />
+        <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/TestSharedVariable.java" />
+        <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/TestInterrupt.java" />
+        <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/TestInterrupt02.java" />
+        <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/TestInterrupt02.java" />
+        <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/TestInterrupt.java" />
+        <option value="$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/interrupt.md" />
       </list>
     </option>
   </component>
@@ -208,6 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,7 +316,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
               <item name="keyword" type="462c0819:PsiDirectoryNode" />
-              <item name="lockSupport" type="462c0819:PsiDirectoryNode" />
+              <item name="testCallable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
@@ -280,20 +327,31 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
               <item name="keyword" type="462c0819:PsiDirectoryNode" />
-              <item name="testCallable" type="462c0819:PsiDirectoryNode" />
+              <item name="interrupt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="keyword" type="462c0819:PsiDirectoryNode" />
+              <item name="interrupt" type="462c0819:PsiDirectoryNode" />
+              <item name="TestInterrupt.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544062535304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544162913798" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -312,13 +370,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestObjectWaitNotify">
-    <configuration name="TestAQS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.carty.juc.keyword.testAQS.TestAQS" />
+  <component name="RunManager" selected="Application.TestInterrupt02">
+    <configuration name="TestInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.carty.juc.keyword.Thread.interrupt.TestInterrupt" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.carty.juc.keyword.testAQS.*" />
+          <option name="PATTERN" value="com.carty.juc.keyword.Thread.interrupt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,25 +384,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCallableForFutureTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.carty.juc.keyword.testCallable.TestCallableForFutureTask" />
+    <configuration name="TestInterrupt02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.carty.juc.keyword.Thread.interrupt.TestInterrupt02" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.carty.juc.keyword.testCallable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLockSupport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.carty.juc.keyword.lockSupport.TestLockSupport" />
-      <module name="juc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.carty.juc.keyword.lockSupport.*" />
+          <option name="PATTERN" value="com.carty.juc.keyword.Thread.interrupt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,12 +410,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.carty.juc.keyword.testReentrantLock.TestReentrantLock" />
+    <configuration name="TestProduceConsumeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.carty.juc.keyword.BlockingQueue.ArrayBlockingQueue.TestProduceConsumeDemo" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.carty.juc.keyword.testReentrantLock.*" />
+          <option name="PATTERN" value="com.carty.juc.keyword.BlockingQueue.ArrayBlockingQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSharedVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.carty.juc.keyword.Thread.interrupt.TestSharedVariable" />
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.carty.juc.keyword.Thread.interrupt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,19 +445,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.JucApplication" />
-      <item itemvalue="Application.TestCallableForFutureTask" />
-      <item itemvalue="Application.TestReentrantLock" />
-      <item itemvalue="Application.TestAQS" />
-      <item itemvalue="Application.TestLockSupport" />
       <item itemvalue="Application.TestObjectWaitNotify" />
+      <item itemvalue="Application.TestProduceConsumeDemo" />
+      <item itemvalue="Application.TestInterrupt" />
+      <item itemvalue="Application.TestSharedVariable" />
+      <item itemvalue="Application.TestInterrupt02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestInterrupt02" />
+        <item itemvalue="Application.TestInterrupt" />
+        <item itemvalue="Application.TestSharedVariable" />
+        <item itemvalue="Application.TestProduceConsumeDemo" />
         <item itemvalue="Application.TestObjectWaitNotify" />
-        <item itemvalue="Application.TestLockSupport" />
-        <item itemvalue="Application.TestAQS" />
-        <item itemvalue="Application.TestReentrantLock" />
-        <item itemvalue="Application.TestCallableForFutureTask" />
       </list>
     </recent_temporary>
   </component>
@@ -422,12 +480,13 @@
       <workItem from="1543388044450" duration="1203000" />
       <workItem from="1543395697768" duration="605000" />
       <workItem from="1543542005940" duration="4009000" />
-      <workItem from="1544059835803" duration="2697000" />
+      <workItem from="1544059835803" duration="13828000" />
+      <workItem from="1544087395959" duration="11807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49513000" />
+    <option name="totallyTimeSpent" value="72451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -439,11 +498,11 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.17857143" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.24093817" />
       <window_info id="Structure" order="7" weight="0.20735608" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32887402" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27759197" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,20 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/testReentrantLock/TestReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -588,20 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/testReentrantLock/ReentrantLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-310">
-          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -623,40 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6275">
-          <caret line="288" column="22" selection-start-line="288" selection-start-column="22" selection-end-line="288" selection-end-column="22" />
-          <folding>
-            <element signature="e#22675#22676#0" expanded="true" />
-            <element signature="e#22703#22704#0" expanded="true" />
-            <element signature="e#22933#22934#0" expanded="true" />
-            <element signature="e#22965#22966#0" expanded="true" />
-            <element signature="e#32644#32645#0" expanded="true" />
-            <element signature="e#32694#32695#0" expanded="true" />
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-            <element signature="e#42562#42563#0" expanded="true" />
-            <element signature="e#42619#42620#0" expanded="true" />
-            <element signature="e#44444#44445#0" expanded="true" />
-            <element signature="e#44501#44502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4375">
-          <caret line="219" column="23" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
-          <folding>
-            <element signature="e#8176#8177#0" expanded="true" />
-            <element signature="e#8216#8217#0" expanded="true" />
-            <element signature="e#9117#9118#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/testCallable/TestCallableForFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="61" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/TestLockSupport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -732,7 +722,7 @@
     <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/testCallable/Callable.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="500">
+          <first_editor relative-caret-position="550">
             <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           </first_editor>
           <second_editor />
@@ -752,6 +742,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/LockSupport.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="350">
+            <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/TestObjectWaitNotify.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
@@ -759,11 +759,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/lockSupport/LockSupport.md">
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/testReentrantLock/TestReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="177" column="29" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/BlockingQueue/ds.java" />
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/BlockingQueue/LinkedBlockingQueue/TestLinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/BlockingQueue/LinkedBlockingQueue/LinkedBlockingQueue.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="400">
-            <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/BlockingQueue/ArrayBlockingQueue/ArrayBlockingQueue.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor>
+            <caret column="23" selection-start-column="23" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="113" column="22" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/BlockingQueue/ArrayBlockingQueue/TestProduceConsumeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1722">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/testCallable/TestCallableForFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="284" selection-start-line="284" selection-end-line="284" />
+          <folding>
+            <element signature="e#5562#5563#0" expanded="true" />
+            <element signature="e#5614#5615#0" expanded="true" />
+            <element signature="e#8176#8177#0" expanded="true" />
+            <element signature="e#8216#8217#0" expanded="true" />
+            <element signature="e#9144#9145#0" expanded="true" />
+            <element signature="e#17535#17536#0" expanded="true" />
+            <element signature="e#17577#17578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/Varable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/TestInterrupt02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="2031" column="26" selection-start-line="2031" selection-start-column="26" selection-end-line="2031" selection-end-column="26" />
+          <folding>
+            <element signature="e#20991#20992#0" expanded="true" />
+            <element signature="e#21042#21043#0" expanded="true" />
+            <element signature="e#22675#22676#0" expanded="true" />
+            <element signature="e#22703#22704#0" expanded="true" />
+            <element signature="e#22933#22934#0" expanded="true" />
+            <element signature="e#22965#22966#0" expanded="true" />
+            <element signature="e#32644#32645#0" expanded="true" />
+            <element signature="e#32694#32695#0" expanded="true" />
+            <element signature="e#41392#41393#0" expanded="true" />
+            <element signature="e#41449#41450#0" expanded="true" />
+            <element signature="e#42562#42563#0" expanded="true" />
+            <element signature="e#42619#42620#0" expanded="true" />
+            <element signature="e#44444#44445#0" expanded="true" />
+            <element signature="e#44501#44502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/TestSharedVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="962" column="19" selection-start-line="962" selection-start-column="19" selection-end-line="962" selection-end-column="19" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+            <element signature="e#36709#36710#0" expanded="true" />
+            <element signature="e#36767#36768#0" expanded="true" />
+            <element signature="e#37304#37305#0" expanded="true" />
+            <element signature="e#37347#37348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/testReentrantLock/ReentrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-993">
+          <caret line="178" column="17" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/TestInterrupt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juc/src/main/java/com/carty/juc/keyword/Thread/interrupt/interrupt.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="425">
+            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           </first_editor>
           <second_editor />
         </state>
