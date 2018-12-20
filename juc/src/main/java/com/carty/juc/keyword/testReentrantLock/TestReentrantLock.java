@@ -32,8 +32,8 @@ public class TestReentrantLock {
         es.shutdown();
 
         try {
-            System.out.println(res1.get());
-            System.out.println(res2.get());
+            System.out.println("res1: " + res1.get());
+            System.out.println("res2: " + res2.get());
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
